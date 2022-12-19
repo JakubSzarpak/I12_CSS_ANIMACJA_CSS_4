@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+
+body{
+    animation-name: animacja2;
+    background-color: whitesmoke;
+    animation-duration: 20s;  
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.SUS1 {
+  width: 50px;
+  height: 100px;
+  position: static;
+  animation-name: animacja;
+  animation-duration: 6s;  
+  animation-fill-mode: forwards;
+  margin-left: 45%;
+  margin-top: 15%;
+  animation-iteration-count: infinite;
+}
+
+.SUS2 {
+  width: 50px;
+  height: 100px;
+  position: static;
+  animation-name: animacja3;
+  animation-duration: 6s;  
+  animation-fill-mode: forwards;
+  margin-left: 15%;
+  margin-top: -5%;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes animacja {
+  10% {transform: scaleX(120%);}
+  15% {transform: scaleY(120%);}
+  20% {transform: rotateZ(40deg);}
+  25% {transform: rotateY(30deg);}
+  30% {transform: rotateX(60deg);}
+  35% {transform: scaleX(180%);}
+  40% {transform: scaleY(180%);}
+  45% {transform: skewX(50deg);}
+  45% {transform: skewY(50deg);}
+  50% {rotate: 50deg;}
+  55% {rotate: -70deg;}
+  60% {transform: scaleX(200%);}
+  65% {transform: scaleY(240%);}
+  70% {transform: scaleX(-230%);}
+  75% {transform: scaleY(-400%);}
+}
+
+@keyframes animacja3 {
+  10% {transform: scaleX(-120%);}
+  15% {transform: scaleY(120%);}
+  20% {transform: rotateZ(40deg);}
+  25% {transform: rotateX(30deg);}
+  30% {transform: rotateY(60deg);}
+  35% {transform: scaleX(180%);}
+  40% {transform: scaleY(180%);}
+  45% {transform: skewY(90deg);}
+  45% {transform: skewX(-50deg);}
+  50% {rotate: 90deg;}
+  55% {rotate: -140deg;}
+  60% {transform: scaleX(-200%);}
+  65% {transform: scaleY(240%);}
+  70% {transform: scaleX(230%);}
+  75% {transform: scaleY(-400%);}
+
+}
+
+
+@keyframes animacja2 {
+  20% {background-color: rebeccapurple;}
+  40% {background-color: lightblue;}
+  60% {background-color: lightgreen;}
+  80% {background-color: rebeccapurple;}
+  100% {background-color: whitesmoke;}
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="SUS1"><img src="bomba2.png"></img></div>
+<div class="SUS2"><img src="bomba1.png"></img></div>
+</body>
+</html>
